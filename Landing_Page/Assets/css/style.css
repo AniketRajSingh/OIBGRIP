@@ -1,0 +1,87 @@
+body {
+    color: white;
+    background-color: rgb(79, 77, 77);
+}
+
+.card {
+    background-color: rgb(108, 104, 104);
+    margin-top: 7vh;
+}
+
+.navbar-custom {
+    height: 8vh;
+    background-color: white;
+}
+
+#Logo {
+    width: 16%;
+    margin: 5vh;
+    margin-inline: 42%;
+    border-radius: 50%;
+    box-shadow: white 0px 0px 20px 5px;
+}
+
+#search-addon {
+    height: 5vh;
+    padding-inline: 40px;
+    background-color: #F90;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+#search-bar-main{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height:5vh
+}
+
+#searchbar {
+    width: 50%;
+    margin-inline: 25%;
+    text-align: center;
+    color: white;
+}
+
+h1,
+h4 {
+    color: #F90;
+}
+
+.btn_custom {
+    border: #F90 1px solid;
+    color: #F90;
+    height: 5vh;
+    width: 40%;
+    border-radius: 8px;
+}
+.btn_custom:hover {
+    border: #F90 1px solid;
+    color: #FFF;
+    background-color: #F90;
+}
+.btn_custom2 {
+    border: #F90 1px solid!important;
+    color: #F90!important;
+}
+
+.btn_custom2:hover {
+    border: #F90 1px solid;
+    color: #FFF!important;
+    background-color: #F90;
+}
+.btn_custom2:active {
+    border: #F90 1px solid;
+    color: #FFF!important;
+    background-color: rgb(255, 176, 57)!important;
+}
+
+.heifoo {
+    height: 150px;
+}
+.heicar {
+    height: 30vh;
+}
+.cform{
+   background-color: #FFF;
+   color: #888;
+}
