@@ -1,0 +1,129 @@
+@media (min-width: 992px) {
+    #intro {
+        margin-top: -58.59px;
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.btn-primary {
+    background-color: #8855FF;
+    box-shadow: #8855FF 0px 0px 1px 1px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(136, 85, 255, 0.798);
+    box-shadow: rgb(136, 85, 255) 0px 0px 1px 1px;
+}
+.btn-primary:active,.btn-primary:focus {
+    background-color: #FFFFFF;
+    border: #8855FF 1px solid;
+    color: #8855FF;
+    box-shadow: #8855FF 0px 0px 1px 1px;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.hovvio:hover {
+    background-color: #8855FF;
+}
+
+.colorsurge {
+    position: relative;
+    font-family: 'Helvetica';
+    color: rgba(255, 255, 255, .1);
+    background: linear-gradient(to right, rgb(76, 217, 105), rgb(52, 170, 220), rgb(88, 86, 217), rgb(255, 45, 83), rgb(255, 45, 83), rgb(88, 86, 217), rgb(52, 170, 220), rgb(76, 217, 105));
+    background-size: 400%;
+    -webkit-background-clip: text;
+    font-weight: 900;
+    font-size: 5em;
+    text-align: center;
+    animation: sTransition 10s linear infinite;
+    margin-top: 40vh;
+}
+
+@keyframes sTransition {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.bn9 {
+    text-decoration: none;
+    padding: 2px;
+    outline: 0;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    background: -webkit-gradient(linear,
+            left top,
+            right top,
+            from(#fdde5c),
+            color-stop(#f8ab5e),
+            color-stop(#f56a62),
+            color-stop(#a176c8),
+            color-stop(#759beb),
+            color-stop(#65beb3),
+            to(#70db96));
+    background: linear-gradient(to right,
+            #fdde5c,
+            #f8ab5e,
+            #f56a62,
+            #a176c8,
+            #759beb,
+            #65beb3,
+            #70db96);
+    border-radius: 30px;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.bn9>span {
+    display: block;
+    padding: 10px 40px;
+    font-size: 17px;
+    font-weight: 500;
+    background: #ffffff;
+    border-radius: 30px;
+}
+.bn9>span:hover{
+    color: #FFFFFF;
+    background-color: #8855FF;
+}
+.bn9:hover{
+    padding: 0;
+    border: #8855FF 2px solid;
+
+}
+.skillsbtns{
+    background-color: #8855FF;
+    border: none;
+    border-radius: 12px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .righttop{
+        width: 100%;
+        position: absolute;
+        top: 20vh;
+    }
+    .lefttop{
+        width: 60%;
+        left: 15%;
+        position: absolute;
+        top: 12vh; 
+    }
+    .img-fluid{
+        margin-top: 5vh!important;
+    } 
+  }
